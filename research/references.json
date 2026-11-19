@@ -1,0 +1,65 @@
+[
+  {
+    "id": "santa_fe",
+    "title": "Asset Pricing Under Endogenous Expectations in an Artificial Stock Market",
+    "authors": "Arthur, Holland, LeBaron, Palmer & Tayler",
+    "year": "1996 working paper / 1997 chapter",
+    "url": "https://sites.santafe.edu/~wbarthur/Papers/Artif_Mkt.pdf",
+    "implementation": "Conditional affine forecasts, lagged squared-error learning, inverse-error selection, crossover and mutation",
+    "deviation": "Price returns instead of price plus dividends; six predictors, bounded quantities, no CARA equilibrium clearing",
+    "accessed": "2026-11-03"
+  },
+  {
+    "id": "degroot",
+    "title": "Reaching a Consensus",
+    "authors": "Morris H. DeGroot",
+    "year": "1974",
+    "url": "https://www.cse.cuhk.edu.hk/~cslui/CMSC5734/DeGroot-Reaching_a_concensus.pdf",
+    "implementation": "Synchronous row-stochastic opinion pooling on a fixed ring",
+    "deviation": "Private-information anchoring is an AFS extension; this extension need not converge to consensus",
+    "accessed": "2026-11-03"
+  },
+  {
+    "id": "prospect",
+    "title": "Advances in Prospect Theory: Cumulative Representation of Uncertainty",
+    "authors": "Amos Tversky & Daniel Kahneman",
+    "year": "1992",
+    "url": "https://psych.fullerton.edu/mBIRNBAUM/psych466/articles/Tversky_Kahneman_JRU_92.pdf",
+    "implementation": "Reference-dependent value, loss aversion and cumulative decision weights for two outcomes",
+    "deviation": "Average entry price as reference and a two-outcome next-quote scenario are AFS assumptions; no Taiwan calibration",
+    "parameters": {"alpha": 0.88, "beta": 0.88, "lambda": 2.25, "gamma_gain": 0.61, "gamma_loss": 0.69},
+    "accessed": "2026-11-03"
+  },
+  {
+    "id": "zi",
+    "title": "Allocative Efficiency of Markets with Zero-Intelligence Traders: Market as a Partial Substitute for Individual Rationality",
+    "authors": "Dhananjay K. Gode & Shyam Sunder",
+    "year": "1993",
+    "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/ZITraders.GodeSunder.JPE1993.pdf",
+    "implementation": "Random side, quantity and limit subject to private valuation/cost and cash/inventory constraints",
+    "deviation": "Repeated stock inventory with a market maker, not the paper's single-unit continuous double auction; no allocative-efficiency claim",
+    "accessed": "2026-11-03"
+  },
+  {
+    "id": "stockagent",
+    "title": "When AI Meets Finance (StockAgent): Large Language Model-based Stock Trading in Simulated Real-world Environments",
+    "authors": "Chong Zhang et al.",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2407.18957",
+    "code_url": "https://github.com/MingyuJ666/Stockagent",
+    "implementation": "Four investor profiles, per-agent news memory, partial observations and action validation",
+    "deviation": "Offline numerical policies; no LLM, text comprehension, loans or BBS natural-language conversations",
+    "accessed": "2026-11-03"
+  },
+  {
+    "id": "tradingagents",
+    "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "authors": "Yijia Xiao et al.",
+    "year": "2024 / 2025 v7",
+    "url": "https://arxiv.org/abs/2412.20138",
+    "code_url": "https://github.com/TauricResearch/TradingAgents",
+    "implementation": "Structured fundamental/technical/news reports, bull/bear summaries, trader aggregation and exposure/drawdown risk gates",
+    "deviation": "Offline numerical role decomposition; no actual LLM debate, external research tools or reproduction of reported returns",
+    "accessed": "2026-11-03"
+  }
+]
